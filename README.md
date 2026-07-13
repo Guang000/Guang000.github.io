@@ -1,6 +1,6 @@
 # guang000.github.io
 
-Personal academic website of Guang Li (李広), Assistant Professor at Hokkaido University.
+Personal academic website of Guang Li, Assistant Professor at Hokkaido University.
 
 - Live: https://guang000.github.io
 - Content lives in `assets/data.js` (news, publications, talks, awards, funding, media)
