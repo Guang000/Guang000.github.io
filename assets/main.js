@@ -16,7 +16,7 @@
   }
 
   /* ---------- News: grouped by year, first N visible ---------- */
-  const NEWS_VISIBLE = 8;
+  const NEWS_VISIBLE = 10;
   const newsContainer = document.getElementById("newsContainer");
   const newsToggle = document.getElementById("newsToggle");
 
@@ -81,7 +81,7 @@
       <ul class="pub-list" data-group="${type}">${items.map(pubHTML).join("")}</ul>${foot}`;
   }).join("");
 
-  /* ---------- Selected Publications (top-venue papers, list style) ---------- */
+  /* ---------- Recent Publications (top-venue papers, list style) ---------- */
   const selGrid = document.getElementById("selGrid");
   const SELECTED = PUBS.filter(p => p.selected).sort((a, b) => b.year - a.year);
   selGrid.innerHTML = `<ul class="pub-list">${SELECTED.map(pubHTML).join("")}</ul>`;
@@ -100,12 +100,12 @@
   let currentFilter = "selected";
 
   function applyFilters() {
-    // "Selected" tab shows the thumbnail view; all other tabs show the filtered list
+    // "Recent" tab shows the curated list; other tabs show the full filtered list
     const selectedMode = currentFilter === "selected";
     selGrid.hidden = !selectedMode;
     container.hidden = selectedMode;
     if (selectedMode) {
-      countEl.textContent = `${SELECTED.length} selected publications`;
+      countEl.textContent = `${SELECTED.length} recent publications`;
       return;
     }
 

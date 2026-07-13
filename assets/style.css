@@ -60,7 +60,6 @@ a:focus-visible,button:focus-visible,input:focus-visible,select:focus-visible{ou
   .br-wide{display:none}
 }
 .name{font-family:var(--serif);font-size:2.9rem;font-weight:600;letter-spacing:-.015em;line-height:1.1}
-.name .han{font-weight:400;color:var(--ink-soft);font-size:1.6rem;margin-left:6px}
 .tagline{margin-top:14px;color:var(--ink-soft);font-size:1.02rem;line-height:1.6}
 .hero-email{margin-top:12px;font-family:var(--mono);font-size:.82rem}
 .hero-email a{color:var(--glacier-deep)}
@@ -68,7 +67,6 @@ a:focus-visible,button:focus-visible,input:focus-visible,select:focus-visible{ou
 @media (max-width:640px){.social{justify-content:center}}
 .social a{font-family:var(--mono);font-size:.74rem;font-weight:500;letter-spacing:.02em;color:var(--ink-soft);border:1px solid var(--line);background:var(--paper);padding:5px 12px;border-radius:99px;transition:all .15s}
 .social a:hover{border-color:var(--glacier);color:var(--glacier);border-bottom-color:var(--glacier)}
-.social a.cv-link{border-color:var(--glacier);color:var(--glacier);font-weight:600}
 .avatar{width:190px;height:190px;border-radius:50%;object-fit:cover;border:4px solid var(--paper);box-shadow:0 4px 24px rgba(22,35,58,.13)}
 @media (max-width:640px){.avatar{width:150px;height:150px}}
 
@@ -140,6 +138,8 @@ h3{font-family:var(--mono);font-size:.76rem;font-weight:600;letter-spacing:.1em;
 .proj a.title{font-family:var(--serif);font-size:1.1rem;font-weight:600;color:var(--ink);display:block;margin-bottom:6px}
 .proj a.title:hover{color:var(--glacier)}
 .proj p{font-size:.88rem;color:var(--ink-soft)}
+.proj-logo{display:flex;align-items:center;justify-content:flex-start;height:88px;margin-bottom:14px;border-bottom:none}
+.proj-logo img{max-height:88px;max-width:100%;object-fit:contain;border-radius:6px}
 .proj .tag{font-family:var(--mono);font-size:.7rem;color:var(--glacier-deep);background:var(--glacier-wash);padding:2px 8px;border-radius:5px;display:inline-block;margin-bottom:10px}
 
 /* ================= Plain lists (talks / awards / funding / media) ================= */

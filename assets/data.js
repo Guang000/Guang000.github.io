@@ -14,13 +14,6 @@ const NEWS = [
   { date: "2026/02", html: 'Invited to serve as an Area Chair for <a href="https://2026.acmmm.org/" target="_blank" rel="noopener">ACM MM 2026</a>!' },
   { date: "2026/02", html: 'Our paper has been accepted to <a href="https://cvpr.thecvf.com/Conferences/2026" target="_blank" rel="noopener">CVPR 2026</a>!' },
   { date: "2026/01", html: 'Our paper has been accepted to <a href="https://iclr.cc/Conferences/2026" target="_blank" rel="noopener">ICLR 2026</a>!' },
-  { date: "2025/12", html: 'Invited to serve as a reviewer for <a href="https://link.springer.com/journal/11263" target="_blank" rel="noopener">IJCV</a>!' },
-  { date: "2025/11", html: 'Our paper has been accepted to <a href="https://aaai.org/conference/aaai/aaai-26/" target="_blank" rel="noopener">AAAI 2026</a> (Oral)!' },
-  { date: "2025/10", html: 'Our research was featured in <a href="https://www.hokudai.ac.jp/news/2025/10/ai-8.html" target="_blank" rel="noopener">Hokkaido University Press</a>!' },
-  { date: "2025/10", html: 'Our paper has been accepted by <a href="https://jmlr.org/tmlr/" target="_blank" rel="noopener">TMLR</a>!' },
-  { date: "2025/09", html: 'Our paper has been accepted to <a href="https://neurips.cc/Conferences/2025" target="_blank" rel="noopener">NeurIPS 2025</a>!' },
-  { date: "2025/08", html: 'Invited to serve as a reviewer for <a href="https://ieeexplore.ieee.org/xpl/RecentIssue.jsp?punumber=34" target="_blank" rel="noopener">TPAMI</a>!' },
-  { date: "2025/07", html: 'Our paper has been accepted to <a href="https://iccv.thecvf.com/Conferences/2025" target="_blank" rel="noopener">ICCV 2025</a> (Highlight)!' }
 ];
 
 // ---------- Publications ----------
@@ -119,7 +112,7 @@ const PUBS = [
     authors: "Wenbo Huang, Jinghui Zhang, Guang Li, Lei Zhang, Shuoyuan Wang, Fang Dong, Jiahui Jin, Takahiro Ogawa, Miki Haseyama",
     note: "Acceptance rate 23.4%",
     links: [ ["arXiv","https://arxiv.org/abs/2412.07481"], ["Paper","https://ojs.aaai.org/index.php/AAAI/article/view/32391"] ] },
-  { type: "conference", venue: "ACM MM 2024", year: 2024, selected: true,
+  { type: "conference", venue: "ACM MM 2024", year: 2024,
     title: "Multimodal Low-Light Image Enhancement with Depth Information",
     authors: "Zhen Wang*, Dongyuan Li*, Guang Li, Ziqing Zhang, Renhe Jiang",
     note: "*Equal contribution · Acceptance rate 26.2%",
@@ -196,7 +189,7 @@ const PUBS = [
     authors: "Guang Li, Katsuhiro Mabe, Miki Haseyama",
     note: "Invited paper · Journal of Gastroenterology, vol. 60, no. 9, pp. 1209–1210",
     links: [ ["Paper","https://link.springer.com/article/10.1007/s00535-025-02277-1"] ] },
-  { type: "journal", venue: "JG 2025", year: 2025, selected: true,
+  { type: "journal", venue: "JG 2025", year: 2025,
     title: "Multi-Stage Deep Learning for Classification of Helicobacter Pylori Infection Status Using Endoscopic Images",
     authors: "Guang Li, Ren Togo, Katsuhiro Mabe, Shunpei Nishida, Yoshihiro Tomoda, Fumiyuki Shiratani, Masashi Hirota, Takahiro Ogawa, Miki Haseyama",
     note: "Collaborative research with Olympus Corporation · Journal of Gastroenterology, vol. 60, no. 4, pp. 408–415",
@@ -211,7 +204,7 @@ const PUBS = [
     authors: "Guang Li, Ren Togo, Keisuke Maeda, Akinori Sako, Isao Yamauchi, Tetsuya Hayakawa, Shigeyuki Nakamae, Takahiro Ogawa, Miki Haseyama",
     note: "AI + Blue Carbon research featured in Nikkei · Remote Sensing, vol. 16, no. 10, 1742",
     links: [ ["Paper","https://www.mdpi.com/2072-4292/16/10/1742"] ] },
-  { type: "journal", venue: "NN 2024", year: 2024, selected: true,
+  { type: "journal", venue: "NN 2024", year: 2024,
     title: "Importance-Aware Adaptive Dataset Distillation",
     authors: "Guang Li, Ren Togo, Takahiro Ogawa, Miki Haseyama",
     note: "Neural Networks, vol. 172, 106154",
@@ -248,6 +241,7 @@ const PUB_FOOTNOTES = {
   conference: "+16 international conference papers and +24 domestic conference papers.",
   journal: "+9 journal papers."
 };
+
 
 // ---------- Invited Talks ----------
 const TALKS = [
@@ -286,12 +280,19 @@ const FUNDING = [
 
 // ---------- Media Coverage ----------
 const MEDIA = [
-  { date: "2026/03", html: '注意の「揺らぎ」を抑える病理画像向け新手法の開発 — <b>北海道大学プレスリリース</b> <a href="https://www.hokudai.ac.jp/news/2026/03/post-2211.html" target="_blank" rel="noopener">[Link]</a>' },
-  { date: "2026/01", html: '北海道大学のAI人材育成講座「DREP」、150の企業や自治体に広がる — <b>日本経済新聞</b> <a href="https://www.nikkei.com/article/DGXZQOFC183ZI0Y5A211C2000000/" target="_blank" rel="noopener">[Link]</a>' },
-  { date: "2025/10", html: '双曲幾何と情報理論を統合したデータ蒸留手法の開発 — <b>北海道大学プレスリリース</b> <a href="https://www.hokudai.ac.jp/news/2025/10/ai-8.html" target="_blank" rel="noopener">[Link]</a>' },
-  { date: "2024/01", html: '北海道えりも町、ブルーカーボンでクレジット取得 — <b>日本経済新聞</b> <a href="https://www.nikkei.com/article/DGXZQOFC277N70X21C23A2000000/" target="_blank" rel="noopener">[Link]</a>' },
-  { date: "2023/06", html: 'えりも町 海中で二酸化炭素を吸収「ブルーカーボン」の検討会 — <b>NHK NEWS WEB</b> <a href="https://www3.nhk.or.jp/sapporo-news/20230607/7000058127.html" target="_blank" rel="noopener">[Link]</a>' },
-  { date: "2022/11", html: 'Top 10 Self-Supervised Learning Models in 2022 — <b>Analytics India Magazine / 新智元</b> <a href="https://analyticsindiamag.com/top-10-self-supervised-learning-models-in-2022/" target="_blank" rel="noopener">[Link]</a>' },
-  { date: "2022/10", html: '一个项目帮你了解数据集蒸馏 Dataset Distillation — <b>机器之心</b> <a href="https://mp.weixin.qq.com/s/tSKQoOLJhmdtAjxvH6z8cw" target="_blank" rel="noopener">[Link]</a>' },
-  { date: "2021/01", html: 'How to Make Artificial Intelligence More Democratic — <b>Scientific American</b> <a href="https://www.scientificamerican.com/article/how-to-make-artificial-intelligence-more-democratic/" target="_blank" rel="noopener">[Link]</a>' }
+  { date: "2026/03/09", html: '注意の「揺らぎ」を抑える病理画像向け新手法の開発～病理診断の精度向上と根拠の一貫性への貢献に期待～ — <b>北海道大学 プレスリリース</b> <a href="https://www.hokudai.ac.jp/news/2026/03/post-2211.html" target="_blank" rel="noopener">[Link]</a>' },
+  { date: "2026/01/13", html: '北海道大学のAI人材育成講座「DREP」、150の企業や自治体に広がる — <b>日本経済新聞</b> <a href="https://www.nikkei.com/article/DGXZQOFC183ZI0Y5A211C2000000/" target="_blank" rel="noopener">[Link]</a>' },
+  { date: "2025/10/28", html: '双曲幾何と情報理論を統合したデータ蒸留手法の開発～大規模AI学習の省メモリ化・高効率化への貢献に期待～ — <b>北海道大学 プレスリリース</b> <a href="https://www.hokudai.ac.jp/news/2025/10/ai-8.html" target="_blank" rel="noopener">[Link]</a>' },
+  { date: "2024/01/05", html: '北海道えりも町、ブルーカーボンでクレジット取得 — <b>日本経済新聞</b> <a href="https://www.nikkei.com/article/DGXZQOFC277N70X21C23A2000000/" target="_blank" rel="noopener">[Link]</a>' },
+  { date: "2023/09/27", html: 'CO2吸収量、森林の9倍 えりものコンブ 町の調査報告 — <b>北海道新聞</b> <a href="https://www.hokkaido-np.co.jp/article/915971/" target="_blank" rel="noopener">[Link]</a>' },
+  { date: "2023/07/01", html: 'コンブで脱炭素推進 開発局がCO2吸収量初調査 漁業者の収入増も狙う — <b>北海道新聞</b> <a href="https://www.hokkaido-np.co.jp/article/871149/" target="_blank" rel="noopener">[Link]</a>' },
+  { date: "2023/06/07", html: 'コンブのCO2吸収量、年内にも算出 えりも町など検討会発足 — <b>北海道新聞</b> <a href="https://www.hokkaido-np.co.jp/article/858231/" target="_blank" rel="noopener">[Link]</a>' },
+  { date: "2023/06/07", html: 'えりも町 海中で二酸化炭素を吸収「ブルーカーボン」の検討会 — <b>NHK NEWS WEB</b> <a href="https://www3.nhk.or.jp/sapporo-news/20230607/7000058127.html" target="_blank" rel="noopener">[Link]</a>' },
+  { date: "2023/04/26", html: '北海道開発局、えりも町で「ブルーカーボン」調査 — <b>日本経済新聞</b> <a href="https://www.nikkei.com/article/DGXZQOFC2618M0W3A420C2000000/" target="_blank" rel="noopener">[Link]</a>' },
+  { date: "2022/11/12", html: '2022 Top10自监督学习模型发布! 美中两国8项成果霸榜 — <b>新智元</b> <a href="https://mp.weixin.qq.com/s/AQIWt4deRGnRw3E6msRrig" target="_blank" rel="noopener">[Link]</a>' },
+  { date: "2022/11/02", html: 'Top 10 Self-supervised Learning Models in 2022 — <b>Analytics India Magazine</b> <a href="https://analyticsindiamag.com/top-10-self-supervised-learning-models-in-2022/" target="_blank" rel="noopener">[Link]</a>' },
+  { date: "2022/10/09", html: '一个项目帮你了解数据集蒸馏Dataset Distillation — <b>机器之心</b> <a href="https://mp.weixin.qq.com/s/tSKQoOLJhmdtAjxvH6z8cw" target="_blank" rel="noopener">[Link]</a>' },
+  { date: "2022/09/03", html: 'Most Popular AI Research Aug 2022 — <b>LibHunt</b> <a href="https://www.libhunt.com/posts/874974-d-most-popular-ai-research-aug-2022-ranked-based-on-github-stars" target="_blank" rel="noopener">[Link]</a>' },
+  { date: "2021/06/16", html: 'AIでインフラ点検 北海道大情報科学研究院 — <b>日本経済新聞</b> <a href="https://www.nikkei.com/article/DGXZQOFC2643M026052021000000/" target="_blank" rel="noopener">[Link]</a>' },
+  { date: "2021/01/02", html: 'How to Make Artificial Intelligence More Democratic — <b>Scientific American</b> <a href="https://www.scientificamerican.com/article/how-to-make-artificial-intelligence-more-democratic/" target="_blank" rel="noopener">[Link]</a>' }
 ];
