@@ -16,7 +16,7 @@
   }
 
   /* ---------- News: grouped by year, first N visible ---------- */
-  const NEWS_VISIBLE = 10;
+  const NEWS_VISIBLE = 5;
   const newsContainer = document.getElementById("newsContainer");
   const newsToggle = document.getElementById("newsToggle");
 
@@ -41,12 +41,14 @@
     `<div class="news-older" hidden>${groupedNewsHTML(NEWS.slice(NEWS_VISIBLE))}</div>`;
   if (NEWS.length <= NEWS_VISIBLE) newsToggle.hidden = true;
 
+  const hiddenCount = Math.max(0, NEWS.length - NEWS_VISIBLE);
+  newsToggle.textContent = `Show all news (+${hiddenCount}) ▾`;
   newsToggle.addEventListener("click", () => {
     const older = newsContainer.querySelector(".news-older");
     const expanded = newsToggle.getAttribute("aria-expanded") === "true";
     older.hidden = expanded;
     newsToggle.setAttribute("aria-expanded", String(!expanded));
-    newsToggle.textContent = expanded ? "Show earlier news ↓" : "Show fewer ↑";
+    newsToggle.textContent = expanded ? `Show all news (+${hiddenCount}) ▾` : "Show less ▴";
   });
 
   /* ---------- All Publications ---------- */
@@ -212,5 +214,29 @@
       if (best && NAV_MAP[best]) setActive(NAV_MAP[best]);
     }, { rootMargin: "-70px 0px -50% 0px", threshold: [0, .1, .3, .6] });
     sections.forEach(s => io.observe(s));
+  }
+  /* ---------- Projects: drag-to-scroll carousel ---------- */
+  const carousel = document.querySelector(".proj-grid");
+  if (carousel) {
+    let isDown = false, startX = 0, startScroll = 0, dragged = false;
+    carousel.addEventListener("pointerdown", e => {
+      if (e.pointerType !== "mouse") return; // touch scrolls natively
+      isDown = true; dragged = false;
+      startX = e.clientX; startScroll = carousel.scrollLeft;
+    });
+    window.addEventListener("pointermove", e => {
+      if (!isDown) return;
+      const dx = e.clientX - startX;
+      if (Math.abs(dx) > 5) { dragged = true; carousel.classList.add("dragging"); }
+      carousel.scrollLeft = startScroll - dx;
+    });
+    window.addEventListener("pointerup", () => {
+      isDown = false;
+      carousel.classList.remove("dragging");
+    });
+    // Swallow the click that follows a drag so links don't fire
+    carousel.addEventListener("click", e => {
+      if (dragged) { e.preventDefault(); e.stopPropagation(); dragged = false; }
+    }, true);
   }
 })();

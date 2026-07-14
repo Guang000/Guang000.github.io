@@ -132,8 +132,14 @@ h3{font-family:var(--mono);font-size:.76rem;font-weight:600;letter-spacing:.1em;
 .timeline i{display:block;font-family:var(--serif);font-style:italic;font-size:.84rem;color:var(--ink-faint);margin-top:2px}
 
 /* ================= Projects ================= */
-.proj-grid{display:grid;grid-template-columns:1fr 1fr;gap:16px}
-@media (max-width:640px){.proj-grid{grid-template-columns:1fr}}
+.proj-grid{display:flex;gap:16px;overflow-x:auto;padding:2px 2px 14px;scroll-snap-type:x proximity;-webkit-overflow-scrolling:touch;cursor:grab;scrollbar-width:thin;scrollbar-color:var(--line) transparent}
+.proj-grid.dragging{cursor:grabbing;scroll-snap-type:none;user-select:none}
+.proj-grid::-webkit-scrollbar{height:8px}
+.proj-grid::-webkit-scrollbar-thumb{background:var(--line);border-radius:99px}
+.proj-grid::-webkit-scrollbar-thumb:hover{background:var(--ink-faint)}
+.proj-grid::-webkit-scrollbar-track{background:transparent}
+.proj-grid .proj{flex:0 0 320px;scroll-snap-align:start}
+@media (max-width:640px){.proj-grid .proj{flex-basis:280px}}
 .proj{border:1px solid var(--line);background:var(--paper);border-radius:var(--radius);padding:20px 22px;transition:box-shadow .15s,border-color .15s}
 .proj:hover{border-color:var(--glacier);box-shadow:0 4px 18px rgba(14,110,140,.08)}
 .proj a.title{font-family:var(--serif);font-size:1.1rem;font-weight:600;color:var(--ink);display:block;margin-bottom:6px}
