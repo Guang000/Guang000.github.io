@@ -16,7 +16,9 @@
   }
 
   /* ---------- News: grouped by year, first N visible ---------- */
-  const NEWS_VISIBLE = 5;
+  // Show all items from the latest year; hide earlier years behind the toggle
+  const LATEST_YEAR = NEWS[0].date.split("/")[0];
+  const NEWS_VISIBLE = NEWS.filter(n => n.date.startsWith(LATEST_YEAR)).length;
   const newsContainer = document.getElementById("newsContainer");
   const newsToggle = document.getElementById("newsToggle");
 
@@ -42,13 +44,13 @@
   if (NEWS.length <= NEWS_VISIBLE) newsToggle.hidden = true;
 
   const hiddenCount = Math.max(0, NEWS.length - NEWS_VISIBLE);
-  newsToggle.textContent = `Show all news (+${hiddenCount}) ▾`;
+  newsToggle.textContent = `Show earlier news (+${hiddenCount}) ▾`;
   newsToggle.addEventListener("click", () => {
     const older = newsContainer.querySelector(".news-older");
     const expanded = newsToggle.getAttribute("aria-expanded") === "true";
     older.hidden = expanded;
     newsToggle.setAttribute("aria-expanded", String(!expanded));
-    newsToggle.textContent = expanded ? `Show all news (+${hiddenCount}) ▾` : "Show less ▴";
+    newsToggle.textContent = expanded ? `Show earlier news (+${hiddenCount}) ▾` : "Show less ▴";
   });
 
   /* ---------- All Publications ---------- */

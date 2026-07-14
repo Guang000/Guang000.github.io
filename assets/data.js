@@ -9,11 +9,18 @@ const NEWS = [
   { date: "2026/05", html: 'Honored to receive a Gold Reviewer Award at <a href="https://icml.cc/Conferences/2026" target="_blank" rel="noopener">ICML 2026</a>!' },
   { date: "2026/05", html: '<a href="https://arxiv.org/abs/2605.07278" target="_blank" rel="noopener">RC-Aux for Latent World Models</a> was released!' },
   { date: "2026/04", html: '<a href="https://arxiv.org/abs/2605.07194" target="_blank" rel="noopener">Closed-Form Linear-Probe Dataset Distillation</a> was released!' },
-  { date: "2026/03", html: 'Invited to give a talk about dataset distillation at <a href="https://www.osaka-u.ac.jp/en" target="_blank" rel="noopener">The University of Osaka</a>!' },
+  { date: "2026/03", html: 'Invited to give a talk about DD at <a href="https://www.osaka-u.ac.jp/en" target="_blank" rel="noopener">The University of Osaka</a>!' },
   { date: "2026/03", html: 'Our research was featured in <a href="https://www.hokudai.ac.jp/news/2026/03/post-2211.html" target="_blank" rel="noopener">Hokkaido University Press</a>!' },
   { date: "2026/02", html: 'Invited to serve as an Area Chair for <a href="https://2026.acmmm.org/" target="_blank" rel="noopener">ACM MM 2026</a>!' },
   { date: "2026/02", html: 'Our paper has been accepted to <a href="https://cvpr.thecvf.com/Conferences/2026" target="_blank" rel="noopener">CVPR 2026</a>!' },
   { date: "2026/01", html: 'Our paper has been accepted to <a href="https://iclr.cc/Conferences/2026" target="_blank" rel="noopener">ICLR 2026</a>!' },
+  { date: "2025/12", html: 'Invited to serve as a reviewer for <a href="https://link.springer.com/journal/11263" target="_blank" rel="noopener">IJCV</a>!' },
+  { date: "2025/11", html: 'Our paper has been accepted to <a href="https://aaai.org/conference/aaai/aaai-26/" target="_blank" rel="noopener">AAAI 2026</a> (Oral)!' },
+  { date: "2025/10", html: 'Our research was featured in <a href="https://www.hokudai.ac.jp/news/2025/10/ai-8.html" target="_blank" rel="noopener">Hokkaido University Press</a>!' },
+  { date: "2025/10", html: 'Our paper has been accepted by <a href="https://jmlr.org/tmlr/" target="_blank" rel="noopener">TMLR</a>!' },
+  { date: "2025/09", html: 'Our paper has been accepted to <a href="https://neurips.cc/Conferences/2025" target="_blank" rel="noopener">NeurIPS 2025</a>!' },
+  { date: "2025/08", html: 'Invited to serve as a reviewer for <a href="https://ieeexplore.ieee.org/xpl/RecentIssue.jsp?punumber=34" target="_blank" rel="noopener">TPAMI</a>!' },
+  { date: "2025/07", html: 'Our paper has been accepted to <a href="https://iccv.thecvf.com/Conferences/2025" target="_blank" rel="noopener">ICCV 2025</a> (Highlight)!' }
 ];
 
 // ---------- Publications ----------
