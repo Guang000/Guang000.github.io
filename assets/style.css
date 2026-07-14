@@ -79,6 +79,7 @@ h3{font-family:var(--mono);font-size:.76rem;font-weight:600;letter-spacing:.1em;
 #about p{max-width:760px;color:var(--ink-soft)}
 #about p + p{margin-top:12px}
 #about a{font-weight:500}
+.star-badge{height:17px;vertical-align:-3px;margin-left:5px;border-radius:3px}
 
 /* ================= News (grouped by year) ================= */
 .news-year{font-family:var(--serif);font-size:1.15rem;font-weight:600;color:var(--ink);margin:20px 0 6px;letter-spacing:0;text-transform:none}
@@ -149,6 +150,11 @@ h3{font-family:var(--mono);font-size:.76rem;font-weight:600;letter-spacing:.1em;
 .plain-list .when{font-family:var(--mono);font-size:.76rem;color:var(--ink-faint);padding-top:2px;white-space:nowrap}
 .plain-list.nodate li{grid-template-columns:1fr}
 @media (max-width:640px){.plain-list li{grid-template-columns:1fr;gap:1px}}
+
+/* ================= Visitor map ================= */
+.visitor-map{display:flex;justify-content:center;margin-top:44px}
+.visitor-map:empty{display:none}
+.visitor-map a{border-bottom:none}
 
 /* ================= Footer ================= */
 footer{margin-top:24px;padding-top:22px;border-top:1px solid var(--line);font-size:.8rem;color:var(--ink-faint);display:flex;justify-content:space-between;flex-wrap:wrap;gap:10px}
