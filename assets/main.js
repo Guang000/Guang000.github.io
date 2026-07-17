@@ -176,8 +176,8 @@
     about: "#about", experience: "#about",
     news: "#news",
     publications: "#publications", projects: "#publications",
-    talks: "#talks",
-    awards: "#awards", funding: "#awards", media: "#awards",
+    awards: "#awards", funding: "#awards",
+    talks: "#talks", media: "#talks",
     service: "#service"
   };
   const sections = [...document.querySelectorAll("main section[id]")];
