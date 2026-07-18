@@ -264,7 +264,7 @@ const AWARDS_PERSONAL = [
   { date: "2024/09", html: "ECCV 2024 The First Dataset Distillation Challenge, Track 2 Third Place (Team Lead)" },
   { date: "2024/07", html: "The 2024 IEEE Sapporo Young Professionals Best Researcher Award" },
   { date: "2024/02", html: "The 2023 IEEE Sapporo Section Encouragement Award" },
-  { date: "2023/09", html: "The Dean's Award (Ph.D. Degree, Early Graduation)" },
+  { date: "2023/09", html: "The Dean's Award (Ph.D. Degree, Early Graduation in 1.5 Years)" },
   { date: "2022/11", html: "The First Hokkaido University Medical AI Symposium Outstanding Research Award" },
   { date: "2022/03", html: "IEICE Hokkaido Section Student Encouragement Award (M.S. Degree)" },
   { date: "2020/10", html: "IEEE GCCE 2020 Best Student Paper Award" },
