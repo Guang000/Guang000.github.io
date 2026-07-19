@@ -70,15 +70,19 @@
       ? `<div class="pub-links">${p.links.map(([label, url]) =>
           `<a href="${url}" target="_blank" rel="noopener">${esc(label)}</a>`).join("")}</div>`
       : "";
-    // Two-line venue block: full name (italic) + publication info (location/pages)
-    const vfull = (p.venueFull && p.type !== "preprint") ? `<div class="pub-venue-full">${esc(p.venueFull)}</div>` : "";
-    const vinfo = p.pubinfo ? `<div class="pub-venue-info">${esc(p.pubinfo)}</div>` : "";
+    // Venue full name + publication info on ONE line (e.g. "Knowledge-Based Systems, vol. 316, ...")
+    let venueLine = "";
+    if (p.type !== "preprint" && (p.venueFull || p.pubinfo)) {
+      const full = p.venueFull ? `<i>${esc(p.venueFull)}</i>` : "";
+      const info = p.pubinfo ? esc(p.pubinfo) : "";
+      venueLine = `<div class="pub-venue-full">${[full, info].filter(Boolean).join(", ")}</div>`;
+    }
     return `<li class="pub" data-type="${p.type}" data-year="${p.year}">
       <span class="venue">${esc(p.venue)}${badge}</span>
       <div>
         <div class="pub-title">${esc(p.title)}</div>
         <div class="pub-authors">${boldSelf(p.authors)}</div>
-        ${vfull}${vinfo}${note}${links}
+        ${venueLine}${note}${links}
       </div></li>`;
   }
 
