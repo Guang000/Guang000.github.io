@@ -63,17 +63,22 @@
 
   function pubHTML(p) {
     const badge = p.badge ? `<span class="badge">${esc(p.badge)}</span>` : "";
-    const note = p.note ? `<div class="pub-note">${esc(p.note)}</div>` : "";
+    const note = p.note
+      ? `<div class="pub-note">${p.note.split(" · ").map(s => esc(s)).join("<br>")}</div>`
+      : "";
     const links = p.links.length
       ? `<div class="pub-links">${p.links.map(([label, url]) =>
           `<a href="${url}" target="_blank" rel="noopener">${esc(label)}</a>`).join("")}</div>`
       : "";
+    // Two-line venue block: full name (italic) + publication info (location/pages)
+    const vfull = (p.venueFull && p.type !== "preprint") ? `<div class="pub-venue-full">${esc(p.venueFull)}</div>` : "";
+    const vinfo = p.pubinfo ? `<div class="pub-venue-info">${esc(p.pubinfo)}</div>` : "";
     return `<li class="pub" data-type="${p.type}" data-year="${p.year}">
-      <span class="venue">${esc(p.venue)}${p.type === "preprint" ? "<br>" + p.year : ""}${badge}</span>
+      <span class="venue">${esc(p.venue)}${badge}</span>
       <div>
         <div class="pub-title">${esc(p.title)}</div>
         <div class="pub-authors">${boldSelf(p.authors)}</div>
-        ${note}${links}
+        ${vfull}${vinfo}${note}${links}
       </div></li>`;
   }
 
