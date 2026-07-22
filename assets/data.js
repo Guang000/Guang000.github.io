@@ -55,7 +55,7 @@ const PUBS = [
     links: [ ["arXiv","https://arxiv.org/abs/2507.04619"] ] },
   { type: "preprint", venue: "PREPRINT", year: 2026, venueFull: 'Preprint', pubinfo: '',
     title: "DD-Ranking: Rethinking the Evaluation of Dataset Distillation",
-    authors: "Zekai Li, Xinhao Zhong, Samir Khaki, et al., Guang Li, et al., Bo Zhao, Yang You, Kai Wang",
+    authors: "Zekai Li, Xinhao Zhong, Samir Khaki, Zhiyuan Liang, Yuhao Zhou, Mingjia Shi, Ziqiao Wang, Xuanlei Zhao, Wangbo Zhao, Ziheng Qin, Mengxuan Wu, Pengfei Zhou, Haonan Wang, David Junhao Zhang, Jia-Wei Liu, Shaobo Wang, Dai Liu, Linfeng Zhang, Guang Li, Kun Wang, Zheng Zhu, Zhiheng Ma, Joey Tianyi Zhou, Jiancheng Lv, Yaochu Jin, Peihao Wang, Kaipeng Zhang, Lingjuan Lyu, Yiran Huang, Zeynep Akata, Zhiwei Deng, Xindi Wu, George Cazenavette, Yuzhang Shang, Justin Cui, Jindong Gu, Qian Zheng, Hao Ye, Shuo Wang, Xiaobo Wang, Yan Yan, Angela Yao, Mike Zheng Shou, Tianlong Chen, Hakan Bilen, Baharan Mirzasoleiman, Manolis Kellis, Konstantinos N. Plataniotis, Zhangyang Wang, Bo Zhao, Yang You, Kai Wang",
     links: [ ["arXiv","https://arxiv.org/abs/2505.13300"], ["Code","https://github.com/NUS-HPC-AI-Lab/DD-Ranking"], ["Project","https://nus-hpc-ai-lab.github.io/DD-Ranking/"] ] },
 
   // ===== Conference =====
