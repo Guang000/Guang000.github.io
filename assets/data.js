@@ -5,6 +5,8 @@
 
 // ---------- News (newest first). First 8 shown by default. ----------
 const NEWS = [
+  { date: "2026/07", html: 'Our workshop proposal has been accepted to <a href="https://accv2026.org/" target="_blank" rel="noopener">ACCV 2026</a>!' },
+  { date: "2026/07", html: 'Honored to be recognized as an Outstanding Reviewer for <a href="https://eccv.ecva.net/Conferences/2026" target="_blank" rel="noopener">ECCV 2026</a>!' },
   { date: "2026/06", html: 'Our paper has been accepted to <a href="https://eccv.ecva.net/Conferences/2026" target="_blank" rel="noopener">ECCV 2026</a>!' },
   { date: "2026/05", html: 'Honored to receive a Gold Reviewer Award at <a href="https://icml.cc/Conferences/2026" target="_blank" rel="noopener">ICML 2026</a>!' },
   { date: "2026/05", html: '<a href="https://arxiv.org/abs/2605.07278" target="_blank" rel="noopener">RC-Aux for Latent World Models</a> was released!' },
@@ -243,6 +245,7 @@ const TALKS = [
 
 // ---------- Awards ----------
 const AWARDS_PERSONAL = [
+  { date: "2026/07", html: "ECCV 2026 Outstanding Reviewer" },
   { date: "2026/05", html: "ICML 2026 Gold Reviewer Award" },
   { date: "2025/05", html: "The Ports and Harbours Association of Japan Best Paper Award" },
   { date: "2024/09", html: "ECCV 2024 The First Dataset Distillation Challenge, Track 2 Third Place (Team Lead)" },
