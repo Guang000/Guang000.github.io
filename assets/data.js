@@ -61,6 +61,11 @@ const PUBS = [
     links: [ ["arXiv","https://arxiv.org/abs/2505.13300"], ["Code","https://github.com/NUS-HPC-AI-Lab/DD-Ranking"], ["Project","https://nus-hpc-ai-lab.github.io/DD-Ranking/"] ] },
 
   // ===== Conference =====
+  { type: "conference", venue: "ICIP 2026", year: 2026, badge: "ORAL", venueFull: 'IEEE International Conference on Image Processing (ICIP), OJSP Track', pubinfo: 'Tampere, Finland, 2026',
+    title: "SAS: Semantic-Aware Sampling for Generative Dataset Distillation",
+    authors: "Mingzhuo Li, Guang Li, Linfeng Ye, Jiafeng Mao, Takahiro Ogawa, Konstantinos N. Plataniotis, Miki Haseyama",
+    note: "Presented at ICIP 2026 through the IEEE OJSP Track",
+    links: [ ["arXiv","https://arxiv.org/abs/2605.18012"], ["Paper","https://ieeexplore.ieee.org/document/11561066"] ] },
   { type: "conference", venue: "ECCV 2026", year: 2026, venueFull: 'European Conference on Computer Vision (ECCV)', pubinfo: 'Malmö, Sweden, 2026', selected: true,
     title: "FD²: A Dedicated Framework for Fine-Grained Dataset Distillation",
     authors: "Hongxu Ma*, Guang Li*, Shijie Wang, Dongzhan Zhou, Baoli Sun, Takahiro Ogawa, Miki Haseyama, Zhihui Wang",
