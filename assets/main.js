@@ -186,7 +186,7 @@
     news: "#news",
     publications: "#publications", projects: "#publications",
     awards: "#awards", funding: "#awards",
-    talks: "#talks", media: "#talks",
+    talks: "#talks", media: "#media",
     service: "#service"
   };
   const sections = [...document.querySelectorAll("main section[id]")];
