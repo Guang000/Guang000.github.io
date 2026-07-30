@@ -216,14 +216,22 @@
   // (Ratio-based picking skipped short sections such as Media entirely.)
   function updateSpy() {
     if (Date.now() < spyLock) return;
-    const line = window.innerHeight / 3;
+    const vh = window.innerHeight;
+    const maxScroll = Math.max(0, document.documentElement.scrollHeight - vh);
+    const remaining = maxScroll - window.scrollY;
+
+    // Reference line sits a third down the viewport, but sweeps toward the
+    // bottom over the final screen so short trailing sections still get their
+    // turn (otherwise the page runs out of scroll before they reach the line).
+    let line = vh / 3;
+    if (remaining < vh) {
+      const t = 1 - Math.max(0, remaining) / vh;   // 0 → 1 across the last screen
+      line = vh / 3 + (vh - 10 - vh / 3) * t;
+    }
+
     let current = sections[0];
     for (const s of sections) {
       if (s.getBoundingClientRect().top <= line) current = s;
-    }
-    // At the very bottom of the page, always highlight the last section
-    if (window.innerHeight + window.scrollY >= document.body.scrollHeight - 4) {
-      current = sections[sections.length - 1];
     }
     if (current && NAV_MAP[current.id]) setActive(NAV_MAP[current.id]);
   }
