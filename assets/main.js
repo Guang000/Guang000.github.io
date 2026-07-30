@@ -185,7 +185,7 @@
     about: "#about", experience: "#about",
     news: "#news",
     publications: "#publications", projects: "#publications",
-    awards: "#awards", funding: "#awards",
+    awards: "#awards", funding: "#funding",
     talks: "#talks", media: "#media",
     service: "#service"
   };
@@ -212,20 +212,30 @@
     spyLock = Date.now() + 900;
   });
 
-  if ("IntersectionObserver" in window) {
-    const visible = new Map();
-    const io = new IntersectionObserver(entries => {
-      if (Date.now() < spyLock) return;
-      entries.forEach(en => visible.set(en.target.id, en.isIntersecting ? en.intersectionRatio : 0));
-      let best = null, bestRatio = 0;
-      sections.forEach(s => {
-        const r = visible.get(s.id) || 0;
-        if (r > bestRatio) { bestRatio = r; best = s.id; }
-      });
-      if (best && NAV_MAP[best]) setActive(NAV_MAP[best]);
-    }, { rootMargin: "-70px 0px -50% 0px", threshold: [0, .1, .3, .6] });
-    sections.forEach(s => io.observe(s));
+  // Pick whichever section crosses a line one-third down the viewport.
+  // (Ratio-based picking skipped short sections such as Media entirely.)
+  function updateSpy() {
+    if (Date.now() < spyLock) return;
+    const line = window.innerHeight / 3;
+    let current = sections[0];
+    for (const s of sections) {
+      if (s.getBoundingClientRect().top <= line) current = s;
+    }
+    // At the very bottom of the page, always highlight the last section
+    if (window.innerHeight + window.scrollY >= document.body.scrollHeight - 4) {
+      current = sections[sections.length - 1];
+    }
+    if (current && NAV_MAP[current.id]) setActive(NAV_MAP[current.id]);
   }
+
+  let spyTicking = false;
+  window.addEventListener("scroll", () => {
+    if (spyTicking) return;
+    spyTicking = true;
+    requestAnimationFrame(() => { updateSpy(); spyTicking = false; });
+  }, { passive: true });
+  window.addEventListener("resize", updateSpy, { passive: true });
+  updateSpy();
   /* ---------- Projects: drag-to-scroll carousel ---------- */
   const carousel = document.querySelector(".proj-grid");
   if (carousel) {
