@@ -240,6 +240,9 @@ const PUB_FOOTNOTES = {
   journal: "+9 journal papers."
 };
 
+// Papers not individually listed above (used for the total count line)
+const PUB_UNLISTED = { intlConf: 16, domesticConf: 24, journal: 9 };
+
 
 // ---------- Invited Talks ----------
 const TALKS = [

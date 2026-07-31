@@ -143,7 +143,7 @@
     document.querySelectorAll("#pubContainer .pub-more").forEach(f => { f.hidden = !pristine; });
 
     countEl.textContent = pristine
-      ? `${PUBS.length} listed publications`
+      ? `${PUBS.length + PUB_UNLISTED.intlConf + PUB_UNLISTED.domesticConf + PUB_UNLISTED.journal} publications in total`
       : `${shown} publication${shown === 1 ? "" : "s"} shown`;
   }
 
