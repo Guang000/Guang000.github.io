@@ -5,7 +5,6 @@
 
 // ---------- News (newest first). First 8 shown by default. ----------
 const NEWS = [
-  { date: "2026/08", html: 'Honored to receive the Best Reviewer Award at <a href="https://miru-committee.github.io/miru2026/" target="_blank" rel="noopener">MIRU 2026</a>!' },
   { date: "2026/07", html: 'Our workshop proposal has been accepted to <a href="https://accv2026.org/" target="_blank" rel="noopener">ACCV 2026</a>!' },
   { date: "2026/07", html: 'Honored to be recognized as an Outstanding Reviewer for <a href="https://eccv.ecva.net/Conferences/2026" target="_blank" rel="noopener">ECCV 2026</a>!' },
   { date: "2026/06", html: 'Our paper has been accepted to <a href="https://eccv.ecva.net/Conferences/2026" target="_blank" rel="noopener">ECCV 2026</a>!' },
