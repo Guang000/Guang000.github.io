@@ -67,8 +67,9 @@
       ? `<div class="pub-note">${p.note.split(" · ").map(s => esc(s)).join("<br>")}</div>`
       : "";
     const links = p.links.length
-      ? `<div class="pub-links">${p.links.map(([label, url]) =>
-          `<a href="${url}" target="_blank" rel="noopener">${esc(label)}</a>`).join("")}</div>`
+      ? `<div class="pub-links">${p.links.map(([label, url]) => url
+          ? `<a href="${url}" target="_blank" rel="noopener">${esc(label)}</a>`
+          : `<span class="pending" title="Link coming soon">${esc(label)}</span>`).join("")}</div>`
       : "";
     // Venue full name + publication info on ONE line (e.g. "Knowledge-Based Systems, vol. 316, ...")
     let venueLine = "";

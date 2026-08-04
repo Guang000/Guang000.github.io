@@ -95,6 +95,7 @@ h3{font-family:var(--mono);font-size:.76rem;font-weight:600;letter-spacing:.1em;
 
 .pub-links{margin-top:8px;display:flex;flex-wrap:wrap;gap:6px}
 .pub-links a{font-family:var(--mono);font-size:.7rem;font-weight:500;color:var(--ink-soft);border:1px solid var(--line);padding:2px 9px;border-radius:5px;background:var(--paper)}
+.pub-links .pending{font-family:var(--mono);font-size:.7rem;font-weight:500;color:var(--ink-faint);border:1px dashed var(--line);padding:2px 9px;border-radius:5px;background:transparent;cursor:default}
 .pub-links a:hover{color:var(--glacier);border-color:var(--glacier);border-bottom-color:var(--glacier)}
 
 /* ================= All publications ================= */
