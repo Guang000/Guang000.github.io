@@ -97,7 +97,11 @@
 
   /* ---------- Recent Publications (top-venue papers, list style) ---------- */
   const selGrid = document.getElementById("selGrid");
-  const SELECTED = PUBS.filter(p => p.selected).sort((a, b) => b.year - a.year);
+  // Sort by acceptance date (newest first); fall back to year when absent
+  const SELECTED = PUBS.filter(p => p.selected).sort((a, b) => {
+    const ka = a.accepted || String(a.year), kb = b.accepted || String(b.year);
+    return kb.localeCompare(ka);
+  });
   selGrid.innerHTML = `<ul class="pub-list">${SELECTED.map(pubHTML).join("")}</ul>`;
 
   // Year dropdown from data
