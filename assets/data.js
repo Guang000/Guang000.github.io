@@ -289,6 +289,7 @@ const AWARDS_PERSONAL = [
 ];
 
 const AWARDS_STUDENTS = [
+  { date: "2026/08", html: "MIRU 2026 Student Encouragement Award (Kaixin Deng)" },
   { date: "2026/03", html: "IEICE Hokkaido Section Student Encouragement Award (Ren Tasai, M.S. Degree)" },
   { date: "2025/09", html: "IEEE GCCE 2025 Excellent Student Poster Award, Outstanding Prize (Shuailin Du)" },
   { date: "2024/12", html: "IEEE GCCE 2024 Presentation Award (Ayaka Tsutsumi)" },
