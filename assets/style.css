@@ -56,7 +56,7 @@ a:focus-visible,button:focus-visible,input:focus-visible,select:focus-visible{ou
 .hero{display:grid;grid-template-columns:1fr auto;gap:36px;align-items:center;padding:64px 0 48px;border-bottom:1px solid var(--line)}
 @media (max-width:640px){
   .hero{grid-template-columns:1fr;gap:24px;padding:40px 0 36px;text-align:center;justify-items:center}
-  .hero .avatar{order:-1}
+  .hero .photo-pair{order:-1}
   .br-wide{display:none}
 }
 .name{font-family:var(--serif);font-size:2.9rem;font-weight:600;letter-spacing:-.015em;line-height:1.1}
@@ -67,8 +67,14 @@ a:focus-visible,button:focus-visible,input:focus-visible,select:focus-visible{ou
 @media (max-width:640px){.social{justify-content:center}}
 .social a{font-family:var(--mono);font-size:.74rem;font-weight:500;letter-spacing:.02em;color:var(--ink-soft);border:1px solid var(--line);background:var(--paper);padding:5px 12px;border-radius:99px;transition:all .15s}
 .social a:hover{border-color:var(--glacier);color:var(--glacier);border-bottom-color:var(--glacier)}
-.avatar{width:200px;height:200px;border-radius:12px;object-fit:cover;border:1px solid var(--line);box-shadow:0 6px 24px rgba(22,35,58,.12)}
-@media (max-width:640px){.avatar{width:170px;height:170px}}
+.photo-pair{display:flex;gap:12px}
+.photo-pair figure{margin:0;text-align:center}
+.photo-pair img{width:158px;height:158px;object-fit:cover;border-radius:12px;border:1px solid var(--line);box-shadow:0 6px 22px rgba(22,35,58,.12);display:block;transition:transform .2s}
+.photo-pair figure:hover img{transform:translateY(-2px)}
+@media (prefers-reduced-motion: reduce){.photo-pair figure:hover img{transform:none}}
+.photo-pair figcaption{margin-top:7px;font-family:var(--serif);font-style:italic;font-size:.8rem;color:var(--ink-faint)}
+@media (max-width:640px){.photo-pair{justify-content:center}.photo-pair img{width:148px;height:148px}}
+@media (max-width:380px){.photo-pair img{width:132px;height:132px}}
 
 /* ================= Sections ================= */
 section{padding:44px 0;border-bottom:1px solid var(--line)}
