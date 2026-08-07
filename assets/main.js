@@ -95,7 +95,7 @@
       <ul class="pub-list" data-group="${type}">${items.map(pubHTML).join("")}</ul>${foot}`;
   }).join("");
 
-  /* ---------- Recent Publications (top-venue papers, list style) ---------- */
+  /* ---------- Selected Publications (curated, list style) ---------- */
   const selGrid = document.getElementById("selGrid");
   // Sort by acceptance date (newest first); fall back to year when absent
   const SELECTED = PUBS.filter(p => p.selected).sort((a, b) => {
@@ -118,12 +118,12 @@
   let currentFilter = "selected";
 
   function applyFilters() {
-    // "Recent" tab shows the curated list; other tabs show the full filtered list
+    // "Selected" tab shows the curated list; other tabs show the full filtered list
     const selectedMode = currentFilter === "selected";
     selGrid.hidden = !selectedMode;
     container.hidden = selectedMode;
     if (selectedMode) {
-      countEl.textContent = `${SELECTED.length} recent publications`;
+      countEl.textContent = `${SELECTED.length} selected publications`;
       return;
     }
 

@@ -196,7 +196,7 @@ const PUBS = [
     title: "Dual-Model Weight Selection and Self-Knowledge Distillation for Medical Image Classification",
     authors: "Ayaka Tsutsumi, Guang Li, Ren Togo, Takahiro Ogawa, Satoshi Kondo, Miki Haseyama",
     links: [ ["arXiv","https://arxiv.org/abs/2508.20461"], ["Paper","https://www.sciencedirect.com/science/article/pii/S0010482526000715"] ] },
-  { type: "journal", venue: "TMLR 2025", year: 2025, selected: true, accepted: "2025/10", venueFull: 'Transactions on Machine Learning Research', pubinfo: 'pp. 1–22, 2025',
+  { type: "journal", venue: "TMLR 2025", year: 2025, venueFull: 'Transactions on Machine Learning Research', pubinfo: 'pp. 1–22, 2025',
     title: "Dataset Condensation with Color Compensation",
     authors: "Huyu Wu, Duo Su, Junjie Hou, Guang Li",
     links: [ ["arXiv","https://www.arxiv.org/abs/2508.01139"], ["Paper","https://openreview.net/forum?id=hIdwvIOiJt"], ["Code","https://github.com/528why/Dataset-Condensation-with-Color-Compensation"], ["Project","https://528why.github.io/DC3-Page/"] ] },
