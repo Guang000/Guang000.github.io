@@ -97,8 +97,10 @@
 
   /* ---------- Selected Publications (curated, list style) ---------- */
   const selGrid = document.getElementById("selGrid");
-  // Sort by acceptance date (newest first); fall back to year when absent
+  // Preprints first, then published work; each group newest-first by date
   const SELECTED = PUBS.filter(p => p.selected).sort((a, b) => {
+    const pa = a.type === "preprint" ? 0 : 1, pb = b.type === "preprint" ? 0 : 1;
+    if (pa !== pb) return pa - pb;
     const ka = a.accepted || String(a.year), kb = b.accepted || String(b.year);
     return kb.localeCompare(ka);
   });
