@@ -91,7 +91,7 @@ const PUBS = [
     title: "FD²: A Dedicated Framework for Fine-Grained Dataset Distillation",
     authors: "Hongxu Ma*, Guang Li*, Shijie Wang, Dongzhan Zhou, Baoli Sun, Takahiro Ogawa, Miki Haseyama, Zhihui Wang",
     note: "*Equal contribution · Featured in Hokkaido University Press",
-    links: [ ["arXiv","https://arxiv.org/abs/2603.25144"], ["Code","https://github.com/Guang000/FD2"], ["Project","https://guang000.github.io/FD2-Webpage/"] ] },
+    links: [ ["arXiv","https://arxiv.org/abs/2603.25144"], ["Paper",""], ["Code","https://github.com/Guang000/FD2"], ["Project","https://guang000.github.io/FD2-Webpage/"] ] },
   { type: "conference", venue: "CVPR 2026", year: 2026, venueFull: 'IEEE/CVF Conference on Computer Vision and Pattern Recognition (CVPR)', pubinfo: 'pp. 33953–33962, Denver, CO, USA, 2026', selected: true, accepted: "2026/02",
     title: "EVLF: Early Vision-Language Fusion for Generative Dataset Distillation",
     authors: "Wenqi Cai, Yawen Zou, Guang Li, Chunzhi Gu, Chao Zhang",
