@@ -59,7 +59,7 @@ const PUBS = [
     title: "Closed-Form Linear-Probe Dataset Distillation for Pre-Trained Vision Models",
     authors: "Bincheng Peng*, Guang Li*, Ping Liu, Takahiro Ogawa, Miki Haseyama",
     note: "*Equal contribution",
-    links: [ ["arXiv","https://arxiv.org/abs/2605.07194"] ] },
+    links: [ ["arXiv","https://arxiv.org/abs/2605.07194"], ["Code","https://github.com/Guang000/CLP-DD"], ["Project","https://guang000.github.io/CLP-DD-Webpage/"] ] },
   { type: "preprint", venue: "PREPRINT", year: 2026, venueFull: 'Preprint', pubinfo: '',
     title: "L2R: Low-Rank and Lipschitz-Controlled Routing for Mixture-of-Experts",
     authors: "Minghao Yang, Ren Togo, Guang Li, Takahiro Ogawa, Miki Haseyama",
