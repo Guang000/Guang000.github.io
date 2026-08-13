@@ -5,7 +5,7 @@
 
 // ---------- News (newest first). First 8 shown by default. ----------
 const NEWS = [
-  { date: "2026/07", html: 'Our <a href="https://mengsiwei.github.io/MIRAI_ACCV_Workshop/" target="_blank" rel="noopener">MIRAI Driving Workshop</a> has been accepted to <a href="https://accv2026.org/" target="_blank" rel="noopener">ACCV 2026</a>!' },
+  { date: "2026/07", html: 'The <a href="https://mengsiwei.github.io/MIRAI_ACCV_Workshop/" target="_blank" rel="noopener">MIRAI Driving Workshop</a> will be held at <a href="https://accv2026.org/" target="_blank" rel="noopener">ACCV 2026</a>!' },
   { date: "2026/07", html: 'Honored to be recognized as an Outstanding Reviewer for <a href="https://eccv.ecva.net/Conferences/2026" target="_blank" rel="noopener">ECCV 2026</a>!' },
   { date: "2026/06", html: 'Our paper has been accepted to <a href="https://eccv.ecva.net/Conferences/2026" target="_blank" rel="noopener">ECCV 2026</a>!' },
   { date: "2026/05", html: 'Honored to receive a Gold Reviewer Award at <a href="https://icml.cc/Conferences/2026" target="_blank" rel="noopener">ICML 2026</a>!' },
