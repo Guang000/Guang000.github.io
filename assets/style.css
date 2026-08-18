@@ -167,6 +167,20 @@ h3{font-family:var(--mono);font-size:.76rem;font-weight:600;letter-spacing:.1em;
 .plain-list.nodate li{grid-template-columns:1fr}
 @media (max-width:640px){.plain-list li{grid-template-columns:1fr;gap:1px}}
 
+
+/* ================= Collaborations ================= */
+.collab-intro{font-size:.92rem;color:var(--ink-soft);max-width:720px;margin-bottom:18px}
+.collab-list{display:flex;flex-direction:column;gap:14px}
+.collab-row{display:grid;grid-template-columns:132px 1fr;gap:16px;align-items:baseline}
+.collab-region{font-family:var(--mono);font-size:.7rem;font-weight:600;letter-spacing:.1em;text-transform:uppercase;color:var(--ink-faint);padding-top:3px}
+.collab-chips{display:flex;flex-wrap:wrap;gap:6px}
+.collab-chips a{font-size:.8rem;font-weight:500;color:var(--ink-soft);background:var(--paper);border:1px solid var(--line);border-radius:99px;padding:3px 11px;white-space:nowrap;transition:all .14s}
+.collab-chips a:hover{border-color:var(--glacier);color:var(--glacier-deep);background:var(--glacier-wash)}
+@media (max-width:640px){
+  .collab-row{grid-template-columns:1fr;gap:6px}
+  .collab-chips a{font-size:.76rem;padding:3px 9px}
+}
+
 /* ================= Visitor map ================= */
 .visitor-map{display:flex;justify-content:center;align-items:center;gap:12px;margin:34px 0 6px;opacity:.75;transition:opacity .2s}
 .visitor-map:hover{opacity:1}

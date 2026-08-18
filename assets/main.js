@@ -192,7 +192,7 @@
     about: "#about", experience: "#about",
     news: "#news",
     publications: "#publications", projects: "#publications",
-    awards: "#awards", funding: "#funding",
+    awards: "#awards", funding: "#funding", collaborations: "#collaborations",
     talks: "#talks", media: "#media",
     service: "#service"
   };
