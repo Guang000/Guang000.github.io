@@ -5,6 +5,7 @@
 
 // ---------- News (newest first). First 8 shown by default. ----------
 const NEWS = [
+  { date: "2026/08", html: 'Our research was featured in <a href="https://www.hokudai.ac.jp/news/2026/08/aiaifd.html" target="_blank" rel="noopener">Hokkaido University Press</a>!' },
   { date: "2026/07", html: 'The <a href="https://mengsiwei.github.io/MIRAI_ACCV_Workshop/" target="_blank" rel="noopener">MIRAI Driving Workshop</a> will be held at <a href="https://accv2026.org/" target="_blank" rel="noopener">ACCV 2026</a>!' },
   { date: "2026/07", html: 'Honored to be recognized as an Outstanding Reviewer for <a href="https://eccv.ecva.net/Conferences/2026" target="_blank" rel="noopener">ECCV 2026</a>!' },
   { date: "2026/06", html: 'Our paper has been accepted to <a href="https://eccv.ecva.net/Conferences/2026" target="_blank" rel="noopener">ECCV 2026</a>!' },
@@ -305,6 +306,7 @@ const FUNDING = [
 
 // ---------- Media Coverage ----------
 const MEDIA = [
+  { date: "2026/08/19", html: '少数の合成画像で細かな違いを学ぶ省資源型AI技術を開発～AIが見るべき場所を残す新たなデータセット蒸留手法FD²～ — <b>北海道大学 プレスリリース</b> <a href="https://www.hokudai.ac.jp/news/2026/08/aiaifd.html" target="_blank" rel="noopener">[Link]</a>' },
   { date: "2026/03/09", html: '注意の「揺らぎ」を抑える病理画像向け新手法の開発～病理診断の精度向上と根拠の一貫性への貢献に期待～ — <b>北海道大学 プレスリリース</b> <a href="https://www.hokudai.ac.jp/news/2026/03/post-2211.html" target="_blank" rel="noopener">[Link]</a>' },
   { date: "2026/01/13", html: '北海道大学のAI人材育成講座「DREP」、150の企業や自治体に広がる — <b>日本経済新聞</b> <a href="https://www.nikkei.com/article/DGXZQOFC183ZI0Y5A211C2000000/" target="_blank" rel="noopener">[Link]</a>' },
   { date: "2025/10/28", html: '双曲幾何と情報理論を統合したデータ蒸留手法の開発～大規模AI学習の省メモリ化・高効率化への貢献に期待～ — <b>北海道大学 プレスリリース</b> <a href="https://www.hokudai.ac.jp/news/2025/10/ai-8.html" target="_blank" rel="noopener">[Link]</a>' },
