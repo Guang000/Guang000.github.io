@@ -68,7 +68,7 @@ const PUBS = [
     links: [ ["arXiv","https://arxiv.org/abs/2601.21349"] ] },
   { type: "preprint", venue: "PREPRINT", year: 2026, venueFull: 'Preprint', pubinfo: '',
     title: "Foreground-Aware Dataset Distillation via Dynamic Patch Selection",
-    authors: "Mingzhuo Li, Longzhen Li, Guang Li, Ren Togo, Keisuke Maeda, Takahiro Ogawa, Miki Haseyama",
+    authors: "Mingzhuo Li, Guang Li, Longzhen Li, Ren Togo, Keisuke Maeda, Takahiro Ogawa, Miki Haseyama",
     links: [ ["arXiv","https://arxiv.org/abs/2601.02727"] ] },
   { type: "preprint", venue: "PREPRINT", year: 2026, venueFull: 'Preprint', pubinfo: '',
     title: "Decoupled Audio-Visual Dataset Distillation",
