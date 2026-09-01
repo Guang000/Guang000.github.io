@@ -260,11 +260,11 @@ const PUBS = [
 // Footnotes shown under each publication group
 const PUB_FOOTNOTES = {
   conference: "+16 international conference papers and +24 domestic conference papers.",
-  journal: "+9 journal papers."
+  journal: "+10 journal papers."
 };
 
 // Papers not individually listed above (used for the total count line)
-const PUB_UNLISTED = { intlConf: 16, domesticConf: 24, journal: 9 };
+const PUB_UNLISTED = { intlConf: 16, domesticConf: 24, journal: 10 };
 
 
 // ---------- Invited Talks ----------
