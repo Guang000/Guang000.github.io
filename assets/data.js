@@ -5,6 +5,7 @@
 
 // ---------- News (newest first). First 8 shown by default. ----------
 const NEWS = [
+  { date: "2026/09", html: 'Our project has been selected for the <a href="https://www.nvidia.com/en-us/industries/higher-education-research/academic-grant-program/" target="_blank" rel="noopener">NVIDIA Academic Grant Program</a>!' },
   { date: "2026/08", html: 'Our research was featured in <a href="https://www.hokudai.ac.jp/news/2026/08/aiaifd.html" target="_blank" rel="noopener">Hokkaido University Press</a>!' },
   { date: "2026/07", html: 'The <a href="https://mengsiwei.github.io/MIRAI_ACCV_Workshop/" target="_blank" rel="noopener">MIRAI Driving Workshop</a> will be held at <a href="https://accv2026.org/" target="_blank" rel="noopener">ACCV 2026</a>!' },
   { date: "2026/07", html: 'Honored to be recognized as an Outstanding Reviewer for <a href="https://eccv.ecva.net/Conferences/2026" target="_blank" rel="noopener">ECCV 2026</a>!' },
@@ -300,6 +301,7 @@ const AWARDS_STUDENTS = [
 
 // ---------- Funding ----------
 const FUNDING = [
+  { date: "2026–2027", html: '<a href="https://www.nvidia.com/en-us/industries/higher-education-research/academic-grant-program/" target="_blank" rel="noopener">NVIDIA Academic Grant Program</a> (PI)' },
   { date: "2025–2028", html: '<a href="https://kaken.nii.ac.jp/en/grant/KAKENHI-PROJECT-25K21218/" target="_blank" rel="noopener">JSPS Grant-in-Aid for Early-Career Scientists</a> (PI)' },
   { date: "2024–2026", html: '<a href="https://kaken.nii.ac.jp/en/grant/KAKENHI-PROJECT-24K23849/" target="_blank" rel="noopener">JSPS Grant-in-Aid for Research Activity Start-up</a> (PI)' },
   { date: "2022–2023", html: '<a href="https://sites.google.com/elms.hokudai.ac.jp/hokudai-hitachi" target="_blank" rel="noopener">Hokkaido University–Hitachi Joint Cooperative Support Program</a> (Ph.D. Fellowship)' }
