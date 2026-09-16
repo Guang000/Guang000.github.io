@@ -301,10 +301,10 @@ const AWARDS_STUDENTS = [
 
 // ---------- Funding ----------
 const FUNDING = [
-  { date: "2026–2027", html: '<a href="https://www.nvidia.com/en-us/industries/higher-education-research/academic-grant-program/" target="_blank" rel="noopener">NVIDIA Academic Grant Program</a> (PI)' },
-  { date: "2025–2028", html: '<a href="https://kaken.nii.ac.jp/en/grant/KAKENHI-PROJECT-25K21218/" target="_blank" rel="noopener">JSPS Grant-in-Aid for Early-Career Scientists</a> (PI)' },
-  { date: "2024–2026", html: '<a href="https://kaken.nii.ac.jp/en/grant/KAKENHI-PROJECT-24K23849/" target="_blank" rel="noopener">JSPS Grant-in-Aid for Research Activity Start-up</a> (PI)' },
-  { date: "2022–2023", html: '<a href="https://sites.google.com/elms.hokudai.ac.jp/hokudai-hitachi" target="_blank" rel="noopener">Hokkaido University–Hitachi Joint Cooperative Support Program</a> (Ph.D. Fellowship)' }
+  { date: "2026/10 – 2027/03", html: '<a href="https://www.nvidia.com/en-us/industries/higher-education-research/academic-grant-program/" target="_blank" rel="noopener">NVIDIA Academic Grant Program</a> (PI)' },
+  { date: "2025/04 – 2028/03", html: '<a href="https://kaken.nii.ac.jp/en/grant/KAKENHI-PROJECT-25K21218/" target="_blank" rel="noopener">JSPS Grant-in-Aid for Early-Career Scientists</a> (PI)' },
+  { date: "2024/07 – 2026/03", html: '<a href="https://kaken.nii.ac.jp/en/grant/KAKENHI-PROJECT-24K23849/" target="_blank" rel="noopener">JSPS Grant-in-Aid for Research Activity Start-up</a> (PI)' },
+  { date: "2022/04 – 2023/09", html: '<a href="https://sites.google.com/elms.hokudai.ac.jp/hokudai-hitachi" target="_blank" rel="noopener">Hokkaido University–Hitachi Joint Cooperative Support Program for Education and Research</a> (Ph.D. Fellowship)' }
 ];
 
 // ---------- Media Coverage ----------

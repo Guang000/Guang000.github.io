@@ -165,6 +165,8 @@ h3{font-family:var(--mono);font-size:.76rem;font-weight:600;letter-spacing:.1em;
 .plain-list li:last-child{border-bottom:none}
 .plain-list .when{font-family:var(--mono);font-size:.76rem;color:var(--ink-faint);padding-top:2px;white-space:nowrap}
 .plain-list.nodate li{grid-template-columns:1fr}
+#fundingList li{grid-template-columns:132px 1fr}
+@media (max-width:640px){#fundingList li{grid-template-columns:1fr}}
 @media (max-width:640px){.plain-list li{grid-template-columns:1fr;gap:1px}}
 
 
