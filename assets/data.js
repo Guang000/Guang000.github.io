@@ -33,6 +33,23 @@ const NEWS = [
 // Author name "Guang Li" is bolded automatically.
 const PUBS = [
   // ===== Preprints =====
+  { type: "preprint", venue: "PREPRINT", year: 2026, selected: true, accepted: "2026/09c", venueFull: 'Preprint', pubinfo: '',
+    title: "Dataset Distillation: Past, Present, and Future",
+    authors: "Guang Li, Duo Su, Junjie Hou, Yawen Zou, Linfeng Ye, Wenbo Huang, Mingzhuo Li, George Cazenavette, Xindi Wu, Suorong Yang, Ren Togo, Keisuke Maeda, Chao Zhang, Kai Wang, Bo Zhao, Zhiqiang Shen, Huan Wang, Takahiro Ogawa, Boxin Shi, Konstantinos N. Plataniotis, Miki Haseyama",
+    links: [ ["arXiv",""], ["Code","https://github.com/Guang000/Awesome-Dataset-Distillation"], ["Link","https://guang000.github.io/Awesome-Dataset-Distillation/"] ] },
+  { type: "preprint", venue: "PREPRINT", year: 2026, selected: true, accepted: "2026/09b", venueFull: 'Preprint', pubinfo: '',
+    title: "The Composition Gap in Dataset Distillation",
+    authors: "Guang Li, Takahiro Ogawa, Miki Haseyama",
+    links: [ ["arXiv",""] ] },
+  { type: "preprint", venue: "PREPRINT", year: 2026, selected: true, accepted: "2026/09a", venueFull: 'Preprint', pubinfo: '',
+    title: "PSM: Dataset Distillation via Difficulty-Aware Precise Statistical Matching",
+    authors: "Hongxu Ma*, Guang Li*, Shijie Wang, Dongzhan Zhou, Suorong Yang, Baoli Sun, Takahiro Ogawa, Miki Haseyama, Zhihui Wang",
+    note: "*Equal Contribution",
+    links: [ ["arXiv",""] ] },
+  { type: "preprint", venue: "PREPRINT", year: 2026, venueFull: 'Preprint', pubinfo: '',
+    title: "Residual-Quantized Latent Dataset Distillation for Human Motion Prediction",
+    authors: "Ge Tian, Guang Li, Takahiro Ogawa, Miki Haseyama",
+    links: [ ["arXiv",""] ] },
   { type: "preprint", venue: "PREPRINT", year: 2026, venueFull: 'Preprint', pubinfo: '',
     title: "DeCO: Discriminative Evidence Composition for Fine-Grained Dataset Distillation",
     authors: "Chuixuan Fan*, Guang Li*, Shijie Wang, Dongzhan Zhou, Baoli Sun, Takahiro Ogawa, Miki Haseyama, Zhihui Wang",
