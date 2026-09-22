@@ -43,7 +43,7 @@ const PUBS = [
     note: "*Equal Contribution",
     links: [ ["arXiv",""] ] },
   { type: "preprint", venue: "PREPRINT", year: 2026, venueFull: 'Preprint', pubinfo: '',
-    title: "Residual-Quantized Latent Dataset Distillation for Human Motion Prediction",
+    title: "Latent Dataset Distillation for Human Motion Prediction with Residual Quantization",
     authors: "Ge Tian, Guang Li, Takahiro Ogawa, Miki Haseyama",
     links: [ ["arXiv",""] ] },
   { type: "preprint", venue: "PREPRINT", year: 2026, venueFull: 'Preprint', pubinfo: '',
