@@ -45,7 +45,7 @@ const PUBS = [
   { type: "preprint", venue: "PREPRINT", year: 2026, venueFull: 'Preprint', pubinfo: '',
     title: "Latent Dataset Distillation for Human Motion Prediction",
     authors: "Ge Tian, Guang Li, Takahiro Ogawa, Miki Haseyama",
-    links: [ ["arXiv",""] ] },
+    links: [ ["arXiv","https://arxiv.org/abs/2609.26430"] ] },
   { type: "preprint", venue: "PREPRINT", year: 2026, venueFull: 'Preprint', pubinfo: '',
     title: "DeCO: Discriminative Evidence Composition for Fine-Grained Dataset Distillation",
     authors: "Chuixuan Fan*, Guang Li*, Shijie Wang, Dongzhan Zhou, Baoli Sun, Takahiro Ogawa, Miki Haseyama, Zhihui Wang",
