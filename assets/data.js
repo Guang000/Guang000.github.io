@@ -5,6 +5,7 @@
 
 // ---------- News (newest first). First 8 shown by default. ----------
 const NEWS = [
+  { date: "2026/09", html: '<a href="https://arxiv.org/abs/2505.13300" target="_blank" rel="noopener">DD-Ranking</a> was selected as an Oral in the ED Track of <a href="https://neurips.cc/Conferences/2026" target="_blank" rel="noopener">NeurIPS 2026</a> (Top 0.4%)!' },
   { date: "2026/09", html: 'Three papers have been accepted to <a href="https://neurips.cc/Conferences/2026" target="_blank" rel="noopener">NeurIPS 2026</a>!' },
   { date: "2026/09", html: 'Our project has been selected for the <a href="https://www.nvidia.com/en-us/industries/higher-education-research/academic-grant-program/" target="_blank" rel="noopener">NVIDIA Academic Grant Program</a>!' },
   { date: "2026/08", html: 'Our research was featured in <a href="https://www.hokudai.ac.jp/news/2026/08/aiaifd.html" target="_blank" rel="noopener">Hokkaido University Press</a>!' },
@@ -98,6 +99,7 @@ const PUBS = [
   { type: "conference", venue: "NeurIPS 2026", badge: "ORAL", year: 2026, selected: true, accepted: "2026/09", venueFull: 'International Conference on Neural Information Processing Systems (NeurIPS), ED Track', pubinfo: 'Sydney, Australia, 2026',
     title: "DD-Ranking: Rethinking the Evaluation of Dataset Distillation",
     authors: "Zekai Li, Xinhao Zhong, Samir Khaki, Zhiyuan Liang, Yuhao Zhou, Mingjia Shi, Ziqiao Wang, Xuanlei Zhao, Wangbo Zhao, Ziheng Qin, Mengxuan Wu, Pengfei Zhou, Haonan Wang, David Junhao Zhang, Jia-Wei Liu, Shaobo Wang, Dai Liu, Linfeng Zhang, Guang Li, Kun Wang, Zheng Zhu, Zhiheng Ma, Joey Tianyi Zhou, Jiancheng Lv, Yaochu Jin, Peihao Wang, Kaipeng Zhang, Yiran Huang, Zhiwei Deng, Xindi Wu, George Cazenavette, Yuzhang Shang, Justin Cui, Jindong Gu, Qian Zheng, Hao Ye, Shuo Wang, Xiaobo Wang, Yan Yan, Angela Yao, Mike Zheng Shou, Tianlong Chen, Hakan Bilen, Baharan Mirzasoleiman, Manolis Kellis, Konstantinos N. Plataniotis, Zhangyang Wang, Bo Zhao, Yang You, Kai Wang",
+    note: "Oral Rate: 15/3757 (0.4%)",
     links: [ ["arXiv","https://arxiv.org/abs/2505.13300"], ["Code","https://github.com/NUS-HPC-AI-Lab/DD-Ranking"], ["Link","https://nus-hpc-ai-lab.github.io/DD-Ranking/"] ] },
   { type: "conference", venue: "ICIP 2026", year: 2026, badge: "ORAL", venueFull: 'IEEE International Conference on Image Processing (ICIP), OJSP Track', pubinfo: 'Tampere, Finland, 2026',
     title: "SAS: Semantic-Aware Sampling for Generative Dataset Distillation",
@@ -138,6 +140,7 @@ const PUBS = [
   { type: "conference", venue: "ICCV 2025", year: 2025, venueFull: 'IEEE/CVF International Conference on Computer Vision (ICCV)', pubinfo: 'pp. 2941–2950, Honolulu, HI, USA, 2025', selected: true, accepted: "2025/07", badge: "HIGHLIGHT",
     title: "Dataset Distillation via Vision-Language Category Prototype",
     authors: "Yawen Zou, Guang Li, Duo Su, Zi Wang, Jun Yu, Chao Zhang",
+    note: "Highlight Rate: 263/11239 (2.3%)",
     links: [ ["arXiv","https://arxiv.org/abs/2506.23580"], ["Paper","https://openaccess.thecvf.com/content/ICCV2025/html/Zou_Dataset_Distillation_via_Vision-Language_Category_Prototype_ICCV_2025_paper.html"], ["Code","https://github.com/zou-yawen/Dataset-Distillation-via-Vision-Language-Category-Prototype"], ["Project","https://zou-yawen.github.io/DD_via_vision-language/"] ] },
   { type: "conference", venue: "ICCVW 2025", year: 2025, venueFull: 'IEEE/CVF International Conference on Computer Vision (ICCV) Workshops', pubinfo: 'pp. 6794–6801, Honolulu, HI, USA, 2025',
     title: "Task-Specific Generative Dataset Distillation with Difficulty-Guided Sampling",
