@@ -95,7 +95,7 @@ const PUBS = [
     authors: "Bincheng Peng*, Guang Li*, Ping Liu, Takahiro Ogawa, Miki Haseyama",
     note: "*Equal Contribution",
     links: [ ["arXiv","https://arxiv.org/abs/2605.07194"], ["Code","https://github.com/Guang000/CLP-DD"], ["Link","https://guang000.github.io/CLP-DD-Webpage/"] ] },
-  { type: "conference", venue: "NeurIPS 2026", year: 2026, selected: true, accepted: "2026/09", venueFull: 'International Conference on Neural Information Processing Systems (NeurIPS), ED Track', pubinfo: 'Sydney, Australia, 2026',
+  { type: "conference", venue: "NeurIPS 2026", badge: "ORAL", year: 2026, selected: true, accepted: "2026/09", venueFull: 'International Conference on Neural Information Processing Systems (NeurIPS), ED Track', pubinfo: 'Sydney, Australia, 2026',
     title: "DD-Ranking: Rethinking the Evaluation of Dataset Distillation",
     authors: "Zekai Li, Xinhao Zhong, Samir Khaki, Zhiyuan Liang, Yuhao Zhou, Mingjia Shi, Ziqiao Wang, Xuanlei Zhao, Wangbo Zhao, Ziheng Qin, Mengxuan Wu, Pengfei Zhou, Haonan Wang, David Junhao Zhang, Jia-Wei Liu, Shaobo Wang, Dai Liu, Linfeng Zhang, Guang Li, Kun Wang, Zheng Zhu, Zhiheng Ma, Joey Tianyi Zhou, Jiancheng Lv, Yaochu Jin, Peihao Wang, Kaipeng Zhang, Yiran Huang, Zhiwei Deng, Xindi Wu, George Cazenavette, Yuzhang Shang, Justin Cui, Jindong Gu, Qian Zheng, Hao Ye, Shuo Wang, Xiaobo Wang, Yan Yan, Angela Yao, Mike Zheng Shou, Tianlong Chen, Hakan Bilen, Baharan Mirzasoleiman, Manolis Kellis, Konstantinos N. Plataniotis, Zhangyang Wang, Bo Zhao, Yang You, Kai Wang",
     links: [ ["arXiv","https://arxiv.org/abs/2505.13300"], ["Code","https://github.com/NUS-HPC-AI-Lab/DD-Ranking"], ["Link","https://nus-hpc-ai-lab.github.io/DD-Ranking/"] ] },
