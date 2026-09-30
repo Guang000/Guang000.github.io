@@ -47,11 +47,6 @@ const PUBS = [
     authors: "Ge Tian, Guang Li, Takahiro Ogawa, Miki Haseyama",
     links: [ ["arXiv","https://arxiv.org/abs/2609.26430"] ] },
   { type: "preprint", venue: "PREPRINT", year: 2026, venueFull: 'Preprint', pubinfo: '',
-    title: "DeCO: Discriminative Evidence Composition for Fine-Grained Dataset Distillation",
-    authors: "Chuixuan Fan*, Guang Li*, Shijie Wang, Dongzhan Zhou, Baoli Sun, Takahiro Ogawa, Miki Haseyama, Zhihui Wang",
-    note: "*Equal Contribution",
-    links: [ ["arXiv","https://arxiv.org/abs/2608.25480"] ] },
-  { type: "preprint", venue: "PREPRINT", year: 2026, venueFull: 'Preprint', pubinfo: '',
     title: "Efficient Video Dataset Distillation via Cluster-Guided Prototype Blending",
     authors: "Chongle Ren, Guang Li, Wenbo Huang, Naoki Saito, Takahiro Ogawa, Miki Haseyama",
     links: [ ["arXiv","https://arxiv.org/abs/2608.03269"] ] },
@@ -99,6 +94,15 @@ const PUBS = [
     authors: "Zekai Li, Xinhao Zhong, Samir Khaki, Zhiyuan Liang, Yuhao Zhou, Mingjia Shi, Ziqiao Wang, Xuanlei Zhao, Wangbo Zhao, Ziheng Qin, Mengxuan Wu, Pengfei Zhou, Haonan Wang, David Junhao Zhang, Jia-Wei Liu, Shaobo Wang, Dai Liu, Linfeng Zhang, Guang Li, Kun Wang, Zheng Zhu, Zhiheng Ma, Joey Tianyi Zhou, Jiancheng Lv, Yaochu Jin, Peihao Wang, Kaipeng Zhang, Yiran Huang, Zhiwei Deng, Xindi Wu, George Cazenavette, Yuzhang Shang, Justin Cui, Jindong Gu, Qian Zheng, Hao Ye, Shuo Wang, Xiaobo Wang, Yan Yan, Angela Yao, Mike Zheng Shou, Tianlong Chen, Hakan Bilen, Baharan Mirzasoleiman, Manolis Kellis, Konstantinos N. Plataniotis, Zhangyang Wang, Bo Zhao, Yang You, Kai Wang",
     note: "Oral Rate: 15/3757 (0.4%)",
     links: [ ["arXiv","https://arxiv.org/abs/2505.13300"], ["Paper",""], ["Code","https://github.com/NUS-HPC-AI-Lab/DD-Ranking"], ["Link","https://nus-hpc-ai-lab.github.io/DD-Ranking/"] ] },
+  { type: "conference", venue: "NeurIPSW 2026", year: 2026, venueFull: 'International Conference on Neural Information Processing Systems (NeurIPS) Workshops', pubinfo: 'Paris, France, 2026',
+    title: "DeCO: Discriminative Evidence Composition for Fine-Grained Dataset Distillation",
+    authors: "Chuixuan Fan*, Guang Li*, Shijie Wang, Dongzhan Zhou, Baoli Sun, Takahiro Ogawa, Miki Haseyama, Zhihui Wang",
+    note: "*Equal Contribution",
+    links: [ ["arXiv","https://arxiv.org/abs/2608.25480"], ["Link","https://axiom-neurips2026.github.io/"] ] },
+  { type: "conference", venue: "NeurIPSW 2026", year: 2026, venueFull: 'International Conference on Neural Information Processing Systems (NeurIPS) Workshops', pubinfo: 'Sydney, Australia, 2026',
+    title: "Seeing with Intent: Target-Guided Visual Foveation for Multimodal Reasoning",
+    authors: "Minghao Yang, Ren Togo, Guang Li, Keisuke Sano, Hanju Lee, Shinya Kojima, Takahiro Ogawa, Miki Haseyama",
+    links: [ ["Link","https://vlm4rwd.github.io/"] ] },
   { type: "conference", venue: "ICIP 2026", year: 2026, badge: "ORAL", venueFull: 'IEEE International Conference on Image Processing (ICIP), OJSP Track', pubinfo: 'Tampere, Finland, 2026',
     title: "SAS: Semantic-Aware Sampling for Generative Dataset Distillation",
     authors: "Mingzhuo Li, Guang Li, Linfeng Ye, Jiafeng Mao, Takahiro Ogawa, Konstantinos N. Plataniotis, Miki Haseyama",
@@ -275,12 +279,12 @@ const PUBS = [
 
 // Footnotes shown under each publication group
 const PUB_FOOTNOTES = {
-  conference: "+16 international conference papers and +24 domestic conference papers.",
+  conference: "+17 international conference papers and +24 domestic conference papers.",
   journal: "+10 journal papers."
 };
 
 // Papers not individually listed above (used for the total count line)
-const PUB_UNLISTED = { intlConf: 16, domesticConf: 24, journal: 10 };
+const PUB_UNLISTED = { intlConf: 17, domesticConf: 24, journal: 10 };
 
 
 // ---------- Invited Talks ----------
