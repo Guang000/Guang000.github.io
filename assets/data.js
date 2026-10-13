@@ -98,7 +98,7 @@ const PUBS = [
     title: "DeCO: Discriminative Evidence Composition for Fine-Grained Dataset Distillation",
     authors: "Chuixuan Fan*, Guang Li*, Shijie Wang, Dongzhan Zhou, Baoli Sun, Takahiro Ogawa, Miki Haseyama, Zhihui Wang",
     note: "*Equal Contribution",
-    links: [ ["arXiv","https://arxiv.org/abs/2608.25480"], ["Link","https://axiom-neurips2026.github.io/"] ] },
+    links: [ ["arXiv","https://arxiv.org/abs/2608.25480"], ["Link","https://axiom-neurips2026.github.io/#accepted-papers"] ] },
   { type: "conference", venue: "NeurIPSW 2026", year: 2026, venueFull: 'International Conference on Neural Information Processing Systems (NeurIPS) Workshops', pubinfo: 'Sydney, Australia, 2026',
     title: "Seeing with Intent: Target-Guided Visual Foveation for Multimodal Reasoning",
     authors: "Minghao Yang, Ren Togo, Guang Li, Keisuke Sano, Hanju Lee, Shinya Kojima, Takahiro Ogawa, Miki Haseyama",
