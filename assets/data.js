@@ -33,6 +33,10 @@ const NEWS = [
 // Author name "Guang Li" is bolded automatically.
 const PUBS = [
   // ===== Preprints =====
+  { type: "preprint", venue: "PREPRINT", year: 2026, venueFull: 'Preprint', pubinfo: '',
+    title: "ProMoDD: Dataset Distillation for 3D Human Motion via Prototype-Conditioned Diffusion Models",
+    authors: "Yijin Wei, Yawen Zou, Wenqi Cai, Guang Li, Hangli Ge, Katsuya Hotta, Chunzhi Gu, Chao Zhang",
+    links: [ ["arXiv","https://arxiv.org/abs/2610.16134"] ] },
   { type: "preprint", venue: "PREPRINT", year: 2026, selected: true, accepted: "2026/09b", venueFull: 'Preprint', pubinfo: '',
     title: "The Composition Gap in Dataset Distillation",
     authors: "Guang Li, Takahiro Ogawa, Miki Haseyama",
