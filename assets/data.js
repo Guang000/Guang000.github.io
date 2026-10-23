@@ -106,7 +106,7 @@ const PUBS = [
   { type: "conference", venue: "NeurIPSW 2026", year: 2026, venueFull: 'International Conference on Neural Information Processing Systems (NeurIPS) Workshops', pubinfo: 'Sydney, Australia, 2026',
     title: "Seeing with Intent: Target-Guided Visual Foveation for Multimodal Reasoning",
     authors: "Minghao Yang, Ren Togo, Guang Li, Keisuke Sano, Hanju Lee, Shinya Kojima, Takahiro Ogawa, Miki Haseyama",
-    links: [ ["Link","https://vlm4rwd.github.io/"] ] },
+    links: [ ["Link","https://vlm4rwd.github.io/papers.html"] ] },
   { type: "conference", venue: "ICIP 2026", year: 2026, badge: "ORAL", venueFull: 'IEEE International Conference on Image Processing (ICIP), OJSP Track', pubinfo: 'Tampere, Finland, 2026',
     title: "SAS: Semantic-Aware Sampling for Generative Dataset Distillation",
     authors: "Mingzhuo Li, Guang Li, Linfeng Ye, Jiafeng Mao, Takahiro Ogawa, Konstantinos N. Plataniotis, Miki Haseyama",
