@@ -71,7 +71,7 @@ const PUBS = [
     authors: "Minghao Yang, Ren Togo, Guang Li, Takahiro Ogawa, Miki Haseyama",
     links: [ ["arXiv","https://arxiv.org/abs/2601.21349"] ] },
   { type: "preprint", venue: "PREPRINT", year: 2026, venueFull: 'Preprint', pubinfo: '',
-    title: "Foreground-Aware Dataset Distillation via Dynamic Patch Selection",
+    title: "Foreground-Aware Dataset Distillation via Dual-Path Patch Selection",
     authors: "Mingzhuo Li, Guang Li, Longzhen Li, Ren Togo, Keisuke Maeda, Takahiro Ogawa, Miki Haseyama",
     links: [ ["arXiv","https://arxiv.org/abs/2601.02727"] ] },
   { type: "preprint", venue: "PREPRINT", year: 2026, venueFull: 'Preprint', pubinfo: '',
