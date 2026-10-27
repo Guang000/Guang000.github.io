@@ -34,7 +34,7 @@ const NEWS = [
 const PUBS = [
   // ===== Preprints =====
   { type: "preprint", venue: "PREPRINT", year: 2026, venueFull: 'Preprint', pubinfo: '',
-    title: "HSC-Bench: Evaluating State Continuity in Cross-Model Agent Handoffs",
+    title: "Benchmarking Task Takeover Across Agent Handoffs",
     authors: "Wenyuan Li, Guang Li, Dongyuan Li, Keisuke Maeda, Takahiro Ogawa, Miki Haseyama",
     links: [ ["arXiv",""] ] },
   { type: "preprint", venue: "PREPRINT", year: 2026, venueFull: 'Preprint', pubinfo: '',
@@ -64,7 +64,7 @@ const PUBS = [
     links: [ ["arXiv","https://arxiv.org/abs/2608.03218"] ] },
   { type: "preprint", venue: "PREPRINT", year: 2026, venueFull: 'Preprint', pubinfo: '',
     title: "Dataset Distillation Based on Saliency-Driven Prototype Alignment",
-    authors: "Yawen Zou, Wenqi Cai, Guang Li, Chunzhi Gu, Chao Zhang",
+    authors: "Yawen Zou, Wenqi Cai, Guang Li, Ling Xiao, Chunzhi Gu, Chao Zhang",
     links: [ ["arXiv","https://arxiv.org/abs/2607.25318"] ] },
   { type: "preprint", venue: "PREPRINT", year: 2026, venueFull: 'Preprint', pubinfo: '',
     title: "Beyond What to Select: A Plug-and-Play Oscillatory Data-Volume Scheduling for Efficient Model Training",
