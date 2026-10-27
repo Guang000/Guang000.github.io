@@ -5,6 +5,7 @@
 
 // ---------- News (newest first). First 8 shown by default. ----------
 const NEWS = [
+  { date: "2026/10", html: 'HSC-Bench was released!' },
   { date: "2026/09", html: '<a href="https://arxiv.org/abs/2505.13300" target="_blank" rel="noopener">DD-Ranking</a> was selected as an Oral in the ED Track of <a href="https://neurips.cc/Conferences/2026" target="_blank" rel="noopener">NeurIPS 2026</a> (Top 0.4%)!' },
   { date: "2026/09", html: 'Three papers have been accepted to <a href="https://neurips.cc/Conferences/2026" target="_blank" rel="noopener">NeurIPS 2026</a>!' },
   { date: "2026/09", html: 'Our project has been selected for the <a href="https://www.nvidia.com/en-us/industries/higher-education-research/academic-grant-program/" target="_blank" rel="noopener">NVIDIA Academic Grant Program</a>!' },
@@ -33,7 +34,7 @@ const NEWS = [
 // Author name "Guang Li" is bolded automatically.
 const PUBS = [
   // ===== Preprints =====
-  { type: "preprint", venue: "PREPRINT", year: 2026, venueFull: 'Preprint', pubinfo: '',
+  { type: "preprint", venue: "PREPRINT", year: 2026, selected: true, accepted: "2026/10", venueFull: 'Preprint', pubinfo: '',
     title: "Benchmarking Task Takeover Across Agent Handoffs",
     authors: "Wenyuan Li, Guang Li, Dongyuan Li, Keisuke Maeda, Takahiro Ogawa, Miki Haseyama",
     links: [ ["arXiv",""] ] },
