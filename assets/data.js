@@ -5,7 +5,7 @@
 
 // ---------- News (newest first). First 8 shown by default. ----------
 const NEWS = [
-  { date: "2026/10", html: 'HSC-Bench was released!' },
+  { date: "2026/10", html: '<a href="https://arxiv.org/abs/2610.36523" target="_blank" rel="noopener">HSC-Bench</a> was released!' },
   { date: "2026/09", html: '<a href="https://arxiv.org/abs/2505.13300" target="_blank" rel="noopener">DD-Ranking</a> was selected as an Oral in the ED Track of <a href="https://neurips.cc/Conferences/2026" target="_blank" rel="noopener">NeurIPS 2026</a> (Top 0.4%)!' },
   { date: "2026/09", html: 'Three papers have been accepted to <a href="https://neurips.cc/Conferences/2026" target="_blank" rel="noopener">NeurIPS 2026</a>!' },
   { date: "2026/09", html: 'Our project has been selected for the <a href="https://www.nvidia.com/en-us/industries/higher-education-research/academic-grant-program/" target="_blank" rel="noopener">NVIDIA Academic Grant Program</a>!' },
@@ -37,7 +37,7 @@ const PUBS = [
   { type: "preprint", venue: "PREPRINT", year: 2026, selected: true, accepted: "2026/10", venueFull: 'Preprint', pubinfo: '',
     title: "Benchmarking Task Takeover Across Agent Handoffs",
     authors: "Wenyuan Li, Guang Li, Dongyuan Li, Keisuke Maeda, Takahiro Ogawa, Miki Haseyama",
-    links: [ ["arXiv",""] ] },
+    links: [ ["arXiv","https://arxiv.org/abs/2610.36523"] ] },
   { type: "preprint", venue: "PREPRINT", year: 2026, venueFull: 'Preprint', pubinfo: '',
     title: "ProMoDD: Dataset Distillation for 3D Human Motion via Prototype-Conditioned Diffusion Models",
     authors: "Yijin Wei, Yawen Zou, Wenqi Cai, Guang Li, Hangli Ge, Katsuya Hotta, Chunzhi Gu, Chao Zhang",
