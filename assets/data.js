@@ -89,11 +89,11 @@ const PUBS = [
     links: [ ["arXiv","https://arxiv.org/abs/2507.04619"] ] },
 
   // ===== Conference =====
-  { type: "conference", venue: "NeurIPS 2026", year: 2026, selected: true, accepted: "2026/09", venueFull: 'International Conference on Neural Information Processing Systems (NeurIPS)', pubinfo: 'Sydney, Australia, 2026',
+  { type: "conference", venue: "NeurIPS 2026", year: 2026, selected: true, accepted: "2026/09", venueFull: 'International Conference on Neural Information Processing Systems (NeurIPS)', pubinfo: 'pp. 1–35, Sydney, Australia, 2026',
     title: "Predictive but Not Plannable: RC-Aux for Latent World Models",
     authors: "Wenyuan Li, Guang Li, Keisuke Maeda, Takahiro Ogawa, Miki Haseyama",
     links: [ ["arXiv","https://arxiv.org/abs/2605.07278"], ["Paper",""], ["Code","https://github.com/Guang000/RC-aux"], ["Link","https://guang000.github.io/RC-aux-Webpage/"] ] },
-  { type: "conference", venue: "NeurIPS 2026", year: 2026, selected: true, accepted: "2026/09", venueFull: 'International Conference on Neural Information Processing Systems (NeurIPS)', pubinfo: 'Sydney, Australia, 2026',
+  { type: "conference", venue: "NeurIPS 2026", year: 2026, selected: true, accepted: "2026/09", venueFull: 'International Conference on Neural Information Processing Systems (NeurIPS)', pubinfo: 'pp. 1–32, Sydney, Australia, 2026',
     title: "Closed-Form Linear-Probe Dataset Distillation for Pre-Trained Vision Models",
     authors: "Bincheng Peng*, Guang Li*, Ping Liu, Takahiro Ogawa, Miki Haseyama",
     note: "*Equal Contribution",
