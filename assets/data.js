@@ -34,6 +34,10 @@ const NEWS = [
 // Author name "Guang Li" is bolded automatically.
 const PUBS = [
   // ===== Preprints =====
+  { type: "preprint", venue: "PREPRINT", year: 2026, selected: true, accepted: "2026/11", venueFull: 'Preprint', pubinfo: '',
+    title: "Dataset Distillation: Past, Present, and Future",
+    authors: "Guang Li, Duo Su, Junjie Hou, Yawen Zou, Linfeng Ye, Wenbo Huang, Mingzhuo Li, George Cazenavette, Xindi Wu, Suorong Yang, Chunzhi Gu, Ren Togo, Keisuke Maeda, Chao Zhang, Kai Wang, Bo Zhao, Zhiqiang Shen, Huan Wang, Takahiro Ogawa, Boxin Shi, Konstantinos N. Plataniotis, Miki Haseyama",
+    links: [ ["arXiv",""] ] },
   { type: "preprint", venue: "PREPRINT", year: 2026, selected: true, accepted: "2026/10", venueFull: 'Preprint', pubinfo: '',
     title: "Benchmarking Task Takeover Across Agent Handoffs",
     authors: "Wenyuan Li, Guang Li, Dongyuan Li, Keisuke Maeda, Takahiro Ogawa, Miki Haseyama",
