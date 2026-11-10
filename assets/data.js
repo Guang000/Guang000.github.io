@@ -51,7 +51,7 @@ const PUBS = [
     authors: "Guang Li, Takahiro Ogawa, Miki Haseyama",
     links: [ ["arXiv","https://arxiv.org/abs/2609.34343"] ] },
   { type: "preprint", venue: "PREPRINT", year: 2026, selected: true, accepted: "2026/09a", venueFull: 'Preprint', pubinfo: '',
-    title: "PSM: Dataset Distillation Based on Precise Statistical Matching by Difficulty",
+    title: "Dataset Distillation Based on Precise Statistical Matching by Difficulty",
     authors: "Hongxu Ma*, Guang Li*, Shijie Wang, Dongzhan Zhou, Suorong Yang, Baoli Sun, Takahiro Ogawa, Miki Haseyama, Zhihui Wang",
     note: "*Equal Contribution",
     links: [ ["arXiv","https://arxiv.org/abs/2609.34299"] ] },
