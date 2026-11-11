@@ -83,14 +83,6 @@ const PUBS = [
     title: "Foreground-Aware Dataset Distillation via Dual-Path Patch Selection",
     authors: "Mingzhuo Li, Guang Li, Longzhen Li, Ren Togo, Keisuke Maeda, Takahiro Ogawa, Miki Haseyama",
     links: [ ["arXiv","https://arxiv.org/abs/2601.02727"] ] },
-  { type: "preprint", venue: "PREPRINT", year: 2026, venueFull: 'Preprint', pubinfo: '',
-    title: "Decoupled Audio-Visual Dataset Distillation",
-    authors: "Wenyuan Li, Guang Li, Keisuke Maeda, Takahiro Ogawa, Miki Haseyama",
-    links: [ ["arXiv","https://arxiv.org/abs/2511.17890"] ] },
-  { type: "preprint", venue: "PREPRINT", year: 2026, venueFull: 'Preprint', pubinfo: '',
-    title: "Information-Guided Diffusion Sampling for Dataset Distillation",
-    authors: "Linfeng Ye, Shayan Mohajer Hamidi, Guang Li, Takahiro Ogawa, Miki Haseyama, Konstantinos N. Plataniotis",
-    links: [ ["arXiv","https://arxiv.org/abs/2507.04619"] ] },
 
   // ===== Conference =====
   { type: "conference", venue: "NeurIPS 2026", year: 2026, selected: true, accepted: "2026/09", venueFull: 'International Conference on Neural Information Processing Systems (NeurIPS)', pubinfo: 'pp. 1–35, Sydney, Australia, 2026',
