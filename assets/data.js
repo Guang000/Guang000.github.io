@@ -231,6 +231,10 @@ const PUBS = [
     links: [ ["arXiv","https://arxiv.org/abs/2104.02857"], ["Paper","https://ieeexplore.ieee.org/document/9191357"] ] },
 
   // ===== Journal =====
+  { type: "journal", venue: "OJSP 2026", year: 2026, venueFull: 'IEEE Open Journal of Signal Processing', pubinfo: '2026',
+    title: "Recompression-Response Decoding for JPEG-Robust Deep Image Steganography",
+    authors: "Kaixin Deng, Guang Li, Takahiro Ogawa, Miki Haseyama",
+    links: [ ["Paper",""] ] },
   { type: "journal", venue: "NN 2026", year: 2026, venueFull: 'Neural Networks', pubinfo: '2026',
     title: "Difficulty-Guided Sampling: Bridging the Target Gap Between Dataset Distillation and Downstream Task",
     authors: "Mingzhuo Li, Guang Li, Linfeng Ye, Jiafeng Mao, Takahiro Ogawa, Konstantinos N. Plataniotis, Miki Haseyama",
@@ -308,12 +312,12 @@ const PUBS = [
 
 // Footnotes shown under each publication group
 const PUB_FOOTNOTES = {
-  conference: "+17 international conference papers and +24 domestic conference papers.",
+  conference: "+17 international conference papers and +26 domestic conference papers.",
   journal: "+10 journal papers."
 };
 
 // Papers not individually listed above (used for the total count line)
-const PUB_UNLISTED = { intlConf: 17, domesticConf: 24, journal: 10 };
+const PUB_UNLISTED = { intlConf: 17, domesticConf: 26, journal: 10 };
 
 
 // ---------- Invited Talks ----------
